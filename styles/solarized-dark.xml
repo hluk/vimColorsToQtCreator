@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="solarized - dark">
+  <!-- This file was generated using vimColorsToQtC.pl. -->
+  <style name="SearchResult"  background="#b58900" foreground="#002b36" italic="false" bold="false" underline="true"/>
+  <style name="LineNumber"  background="#073642" foreground="#657b83" italic="false" bold="false" underline="true"/>
+  <style name="CurrentLineNumber"  background="#002b36" foreground="#ffff00" italic="false" bold="true" underline="true"/>
+  <style name="Selection"  background="#657b83" foreground="#002b36" italic="false" bold="false" underline="true"/>
+  <style name="AddedLine"  background="#073642" foreground="#719e07" italic="false" bold="true" underline="true"/>
+  <style name="RemovedLine"  background="#073642" foreground="#dc322f" italic="false" bold="true" underline="true"/>
+  <style name="DiffFile"  background="#073642" foreground="#268bd2" italic="false" bold="true" underline="true"/>
+  <style name="DiffLocation"  background="#073642" foreground="#268bd2" italic="false" bold="true" underline="true"/>
+  <style name="CurrentLine"  background="#073642" foreground="#93a1a1" italic="false" bold="false" underline="true"/>
+  <style name="Parentheses"  background="#657b83" foreground="#dc322f" italic="false" bold="true" underline="true"/>
+  <style name="Occurrences"  background="#657b83" foreground="#dc322f" italic="false" bold="true" underline="true"/>
+  <style name="Text"  background="#002b36" foreground="#93a1a1" italic="false" bold="false" underline="true"/>
+  <style name="Local"  background="#002b36" foreground="#93a1a1" italic="false" bold="false" underline="true"/>
+  <style name="SearchScope"  background="#002b36" foreground="#93a1a1" italic="false" bold="false" underline="true"/>
+  <style name="Comment"  background="#002b36" foreground="#657b83" italic="true" bold="false" underline="true"/>
+  <style name="String"  background="#002b36" foreground="#2aa198" italic="false" bold="false" underline="true"/>
+  <style name="Number"  background="#002b36" foreground="#2aa198" italic="false" bold="false" underline="true"/>
+  <style name="Doxygen.Comment"  background="#002b36" foreground="#dc322f" italic="false" bold="false" underline="true"/>
+  <style name="Field"  background="#002b36" foreground="#268bd2" italic="false" bold="false" underline="true"/>
+  <style name="Function"  background="#002b36" foreground="#268bd2" italic="false" bold="false" underline="true"/>
+  <style name="VirtualMethod"  background="#002b36" foreground="#268bd2" italic="true" bold="false" underline="true"/>
+  <style name="Static"  background="#002b36" foreground="#268bd2" italic="false" bold="false" underline="true"/>
+  <style name="Label"  background="#002b36" foreground="#719e07" italic="false" bold="false" underline="true"/>
+  <style name="Operator"  background="#002b36" foreground="#719e07" italic="false" bold="false" underline="true"/>
+  <style name="Keyword"  background="#002b36" foreground="#719e07" italic="false" bold="false" underline="true"/>
+  <style name="Preprocessor"  background="#002b36" foreground="#cb4b16" italic="false" bold="false" underline="true"/>
+  <style name="Type"  background="#002b36" foreground="#b58900" italic="false" bold="false" underline="true"/>
+  <style name="Doxygen.Tag"  background="#002b36" foreground="#d33682" italic="false" bold="true" underline="true"/>
+</style-scheme>
