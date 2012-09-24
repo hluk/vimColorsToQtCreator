@@ -49,7 +49,7 @@ my %dict = (
 
     htmlLink => ['Link|underline=true'],
     Visual => ['Selection'],
-    LineNr => ['LineNumber'],
+    LineNr => ['LineNumber', 'DisabledCode'],
     Search => ['SearchResult'],
     MatchParen => ['Parentheses', 'Occurrences'],
     CursorLine => ['CurrentLine'],
@@ -85,7 +85,6 @@ my %dict = (
      #=> ['QmlStateName'],
      #=> ['Binding'],
 
-    DiffText => ['DisabledCode'],
     DiffAdd => ['AddedLine'],
     DiffDelete => ['RemovedLine'],
     DiffText => ['DiffFile', 'DiffLocation'],
@@ -134,10 +133,9 @@ while(<$fh>) {
     } else {
         my @spans = split '</span>';
         foreach (@spans) {
-            if (/<span class="([^"]+)">(.+)/ or /(\S+)          (\S+)/) {
+            if (/<span class="([^"]+)">(.+)/ or /(\S+)    *(\S+)/) {
                 next unless defined($dict{$2});
-                die "Cannot find style \"$1\" for \"$2\"" unless defined($styles{$1});
-                my $style = $styles{$1};
+                my $style = $styles{$1} or ();
                 foreach (@{$dict{$2}}) {
                     print "  <style name=\"$1\" " .
                           ' background="' . ($+{bg} or @{$style}{bg} or $normal{bg}) . '"' .
