@@ -3,12 +3,15 @@
   <!-- This file was generated using vimColorsToQtC.pl. -->
   <style name="SearchResult"  background="#bebebe" foreground="#000000" italic="false" bold="true" underline="true"/>
   <style name="LineNumber"  background="#203010" foreground="#9acd32" italic="false" bold="true" underline="true"/>
+  <style name="DisabledCode"  background="#203010" foreground="#9acd32" italic="false" bold="true" underline="true"/>
   <style name="CurrentLineNumber"  background="#304020" foreground="#ffff00" italic="false" bold="true" underline="true"/>
   <style name="Selection"  background="#f5deb3" foreground="#2f4f4f" italic="false" bold="false" underline="true"/>
   <style name="AddedLine"  background="#00008b" foreground="#f5deb3" italic="false" bold="false" underline="true"/>
   <style name="RemovedLine"  background="#008b8b" foreground="#0000ff" italic="false" bold="true" underline="true"/>
   <style name="DiffFile"  background="#ff0000" foreground="#f5deb3" italic="false" bold="true" underline="true"/>
   <style name="DiffLocation"  background="#ff0000" foreground="#f5deb3" italic="false" bold="true" underline="true"/>
+  <style name="Occurrences.Unused"  background="#304020" foreground="#f5deb3" italic="false" bold="false" underline="true"/>
+  <style name="Occurrences.Rename"  background="#304020" foreground="#f5deb3" italic="false" bold="false" underline="true"/>
   <style name="CurrentLine"  background="#666666" foreground="#f5deb3" italic="false" bold="false" underline="true"/>
   <style name="Parentheses"  background="#008b8b" foreground="#f5deb3" italic="false" bold="false" underline="true"/>
   <style name="Occurrences"  background="#008b8b" foreground="#f5deb3" italic="false" bold="false" underline="true"/>

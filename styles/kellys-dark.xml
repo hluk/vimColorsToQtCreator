@@ -3,6 +3,7 @@
   <!-- This file was generated using vimColorsToQtC.pl. -->
   <style name="SearchResult"  background="#e1e0e5" foreground="#2a2b2f" italic="false" bold="false" underline="true"/>
   <style name="LineNumber"  background="#2a2b2f" foreground="#67686b" italic="false" bold="false" underline="true"/>
+  <style name="DisabledCode"  background="#2a2b2f" foreground="#67686b" italic="false" bold="false" underline="true"/>
   <style name="CurrentLineNumber"  background="#2a2b2f" foreground="#ffff00" italic="false" bold="true" underline="true"/>
   <style name="Selection"  background="#e1e0e5" foreground="#2a2b2f" italic="false" bold="false" underline="true"/>
   <style name="AddedLine"  background="#9ab2c8" foreground="#2a2b2f" italic="false" bold="false" underline="true"/>
@@ -11,6 +12,7 @@
   <style name="DiffLocation"  background="#d1c79e" foreground="#9d0e15" italic="false" bold="false" underline="true"/>
   <style name="Occurrences.Unused"  background="#9d0e15" foreground="#e1e0e5" italic="false" bold="true" underline="true"/>
   <style name="Occurrences.Rename"  background="#9d0e15" foreground="#e1e0e5" italic="false" bold="true" underline="true"/>
+  <style name="CurrentLine"  background="#303132" foreground="#e1e0e5" italic="false" bold="false" underline="true"/>
   <style name="Parentheses"  background="#2a2b2f" foreground="#d1d435" italic="false" bold="true" underline="true"/>
   <style name="Occurrences"  background="#2a2b2f" foreground="#d1d435" italic="false" bold="true" underline="true"/>
   <style name="Text"  background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="true"/>
@@ -18,6 +20,7 @@
   <style name="SearchScope"  background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="true"/>
   <style name="Function"  background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="true"/>
   <style name="VirtualMethod"  background="#2a2b2f" foreground="#e1e0e5" italic="true" bold="false" underline="true"/>
+  <style name="Comment"  background="#2a2b2f" foreground="#67686b" italic="false" bold="false" underline="true"/>
   <style name="String"  background="#2a2b2f" foreground="#d1c79e" italic="false" bold="false" underline="true"/>
   <style name="Number"  background="#2a2b2f" foreground="#d1c79e" italic="false" bold="false" underline="true"/>
   <style name="Field"  background="#2a2b2f" foreground="#9ab2c8" italic="false" bold="false" underline="true"/>
@@ -25,5 +28,7 @@
   <style name="Label"  background="#2a2b2f" foreground="#62acce" italic="false" bold="true" underline="true"/>
   <style name="Keyword"  background="#2a2b2f" foreground="#62acce" italic="false" bold="true" underline="true"/>
   <style name="Preprocessor"  background="#2a2b2f" foreground="#d1d435" italic="false" bold="false" underline="true"/>
+  <style name="Type"  background="#2a2b2f" foreground="#e6ac32" italic="false" bold="false" underline="true"/>
   <style name="Link"  background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="true"/>
+  <style name="Doxygen.Tag"  background="#9d0e15" foreground="#e1e0e5" italic="false" bold="true" underline="true"/>
 </style-scheme>

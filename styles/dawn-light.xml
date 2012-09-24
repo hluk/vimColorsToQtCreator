@@ -3,6 +3,7 @@
   <!-- This file was generated using vimColorsToQtC.pl. -->
   <style name="SearchResult"  background="#ffdab9" foreground="#000000" italic="false" bold="false" underline="true"/>
   <style name="LineNumber"  background="#cccccc" foreground="#a52a2a" italic="false" bold="false" underline="true"/>
+  <style name="DisabledCode"  background="#cccccc" foreground="#a52a2a" italic="false" bold="false" underline="true"/>
   <style name="CurrentLineNumber"  background="#e5e5e5" foreground="#a52a2a" italic="false" bold="true" underline="true"/>
   <style name="Selection"  background="#bebebe" foreground="#000000" italic="false" bold="false" underline="true"/>
   <style name="AddedLine"  background="#e0ffff" foreground="#0000ff" italic="false" bold="false" underline="true"/>
