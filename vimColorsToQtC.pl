@@ -122,7 +122,7 @@ my %styles = (
 );
 while(<$fh>) {
     chomp;
-    if (/^\.(\w+)\s+{ ((color: (?<fg>[^;]+);|background-color: (?<bg>[^;]+);|font-weight: bold(?<bold>);|font-style: italic(?<italic>);|text-decoration: underline(?<underline>);|padding-bottom: 1px(?<underline>);|\w+=\S+) )+/) {
+    if (/^\.(\w+)\s+{ ((color: (?<fg>[^;]+);|background-color: (?<bg>[^;]+);|font-weight: bold(?<bold>);|font-style: italic(?<italic>);|text-decoration: underline(?<underline>);|\w+=\S+) )+/) {
         my $opts = defined($styles{$1}) ? $styles{$1} : ();
         $opts->{bg} = $+{bg} if defined($+{bg});
         $opts->{fg} = $+{fg} if defined($+{fg});
