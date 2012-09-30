@@ -45,7 +45,8 @@ Pay respect to the authors of the Vim color schemes.
 }
 
 my %dict = (
-    Normal => ['Text', 'Local', 'SearchScope'],
+    Normal => ['Text', 'Local', 'SearchScope',
+        'JsScopeVar|italic="true"', 'JsImportVar|italic="true"', 'JsGlobalVar|italic="true"'],
 
     htmlLink => ['Link|underline=true'],
     Visual => ['Selection'],
@@ -59,37 +60,31 @@ my %dict = (
 
     Number => ['Number'],
     String => ['String'],
-    Type => ['Type'],
+    Type => ['Type', 'QmlTypeId'],
     Identifier => ['Field'],
     cEnum => ['Static'],
-    Function => ['Function', 'VirtualMethod|italic="true"'],
+    Function => ['Function',
+        'VirtualMethod|italic="true"',
+        'QmlLocalId|italic="true"',
+        'QmlRootObjectProperty|italic="true"',
+        'QmlScopeObjectProperty|italic="true"',
+        'QmlStateName'],
     Keyword => ['Keyword'],
     Operator => ['Operator'],
     PreProc => ['Preprocessor'],
-    Label => ['Label'],
+    Label => ['Label', 'Binding'],
     Comment => ['Comment'],
     SpecialComment => ['Doxygen.Comment'],
     Todo => ['Doxygen.Tag'],
      #=> ['VisualWhitespace'],
 
-    # TODO: Add QML syntax support.
-     #=> ['QmlLocalId'],
-     #=> ['QmlExternalId'],
-     #=> ['QmlTypeId'],
-     #=> ['QmlRootObjectProperty'],
-     #=> ['QmlScopeObjectProperty'],
-     #=> ['QmlExternalObjectProperty'],
-     #=> ['JsScopeVar'],
-     #=> ['JsImportVar'],
-     #=> ['JsGlobalVar'],
-     #=> ['QmlStateName'],
-     #=> ['Binding'],
+    Constant => [
+        'QmlExternalId|bold="false" italic="true"',
+        'QmlExternalObjectProperty|bold="false" italic="true"'],
 
     DiffAdd => ['AddedLine'],
     DiffDelete => ['RemovedLine'],
     DiffText => ['DiffFile', 'DiffLocation'],
-
-     #=> ['LastStyleSentinel'],
 );
 
 my ($fh, $filename) = File::Temp::tempfile();
@@ -137,13 +132,13 @@ while(<$fh>) {
                 next unless defined($dict{$2});
                 my $style = $styles{$1} or ();
                 foreach (@{$dict{$2}}) {
-                    print "  <style name=\"$1\" " .
+                    print "  <style name=\"$1\"" .
                           ' background="' . ($+{bg} or @{$style}{bg} or $normal{bg}) . '"' .
                           ' foreground="' . ($+{fg} or @{$style}{fg} or $normal{fg}) . '"' .
                           ' italic="' . ($+{italic} or @{$style}{italic} or $normal{italic}) . '"' .
                           ' bold="' . ($+{bold} or @{$style}{bold} or $normal{bold}) . '"' .
                           ' underline="' . ($+{underline} or @{$style}{underline} or $normal{underline}) . '"' .
-                          "/>\n" if /([^|]+)\|?((background="(?<bg>[^"]+)"|color="(?<fg>[^"]+)"|bold="(?<bold>[^"]+)"|italic="(?<italic>[^"]+)"|underline="(?<underline>[^"]+)")\s*)*/;
+                          " />\n" if /([^|]+)\|?((background="(?<bg>[^"]+)"|color="(?<fg>[^"]+)"|bold="(?<bold>[^"]+)"|italic="(?<italic>[^"]+)"|underline="(?<underline>[^"]+)")\s*)*/;
                 }
                 delete $dict{$2};
             }
