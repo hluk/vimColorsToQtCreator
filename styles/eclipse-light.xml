@@ -38,8 +38,8 @@
   <style name="Operator" background="#ffffff" foreground="#b64f90" italic="false" bold="false" underline="false" />
   <style name="Keyword" background="#ffffff" foreground="#b64f90" italic="false" bold="false" underline="false" />
   <style name="Preprocessor" background="#ffffff" foreground="#683821" italic="false" bold="false" underline="false" />
-  <style name="Type" background="#ffffff" foreground="#7f0055" italic="false" bold="false" underline="false" />
-  <style name="QmlTypeId" background="#ffffff" foreground="#7f0055" italic="false" bold="false" underline="false" />
+  <style name="Type" background="#ffffff" foreground="#7f0055" italic="false" bold="true" underline="false" />
+  <style name="QmlTypeId" background="#ffffff" foreground="#7f0055" italic="false" bold="true" underline="false" />
   <style name="Doxygen.Tag" background="#ffffff" foreground="#ff5050" italic="false" bold="false" underline="false" />
   <style name="String" background="#ffffff" foreground="#8010a0" italic="false" bold="false" underline="false" />
   <style name="Number" background="#ffffff" foreground="#0000ff" italic="false" bold="false" underline="false" />

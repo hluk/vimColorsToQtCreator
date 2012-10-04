@@ -36,7 +36,7 @@
   <style name="Preprocessor" background="#f0f2f0" foreground="#a9a9a9" italic="false" bold="false" underline="false" />
   <style name="Type" background="#f0f2f0" foreground="#bb9900" italic="false" bold="false" underline="false" />
   <style name="QmlTypeId" background="#f0f2f0" foreground="#bb9900" italic="false" bold="false" underline="false" />
-  <style name="Doxygen.Tag" background="#ddd9b8" foreground="#229900" italic="false" bold="false" underline="false" />
+  <style name="Doxygen.Tag" background="#ddd9b8" foreground="#229900" italic="false" bold="true" underline="false" />
   <style name="Function" background="#f0f2f0" foreground="#0055cc" italic="false" bold="false" underline="false" />
   <style name="VirtualMethod" background="#f0f2f0" foreground="#0055cc" italic="true" bold="false" underline="false" />
   <style name="QmlLocalId" background="#f0f2f0" foreground="#0055cc" italic="true" bold="false" underline="false" />

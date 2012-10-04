@@ -10,11 +10,11 @@
   <style name="RemovedLine" background="#2a2b2f" foreground="#67686b" italic="false" bold="false" underline="false" />
   <style name="DiffFile" background="#d1c79e" foreground="#9d0e15" italic="false" bold="false" underline="false" />
   <style name="DiffLocation" background="#d1c79e" foreground="#9d0e15" italic="false" bold="false" underline="false" />
-  <style name="Occurrences.Unused" background="#9d0e15" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
-  <style name="Occurrences.Rename" background="#9d0e15" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
+  <style name="Occurrences.Unused" background="#9d0e15" foreground="#e1e0e5" italic="false" bold="true" underline="false" />
+  <style name="Occurrences.Rename" background="#9d0e15" foreground="#e1e0e5" italic="false" bold="true" underline="false" />
   <style name="CurrentLine" background="#303132" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
-  <style name="Parentheses" background="#2a2b2f" foreground="#d1d435" italic="false" bold="false" underline="false" />
-  <style name="Occurrences" background="#2a2b2f" foreground="#d1d435" italic="false" bold="false" underline="false" />
+  <style name="Parentheses" background="#2a2b2f" foreground="#d1d435" italic="false" bold="true" underline="true" />
+  <style name="Occurrences" background="#2a2b2f" foreground="#d1d435" italic="false" bold="true" underline="true" />
   <style name="Text" background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
   <style name="Local" background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
   <style name="SearchScope" background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
@@ -34,12 +34,12 @@
   <style name="Number" background="#2a2b2f" foreground="#d1c79e" italic="false" bold="false" underline="false" />
   <style name="Field" background="#2a2b2f" foreground="#9ab2c8" italic="false" bold="false" underline="false" />
   <style name="Static" background="#2a2b2f" foreground="#9ab2c8" italic="false" bold="false" underline="false" />
-  <style name="Label" background="#2a2b2f" foreground="#62acce" italic="false" bold="false" underline="false" />
-  <style name="Binding" background="#2a2b2f" foreground="#62acce" italic="false" bold="false" underline="false" />
-  <style name="Keyword" background="#2a2b2f" foreground="#62acce" italic="false" bold="false" underline="false" />
+  <style name="Label" background="#2a2b2f" foreground="#62acce" italic="false" bold="true" underline="false" />
+  <style name="Binding" background="#2a2b2f" foreground="#62acce" italic="false" bold="true" underline="false" />
+  <style name="Keyword" background="#2a2b2f" foreground="#62acce" italic="false" bold="true" underline="false" />
   <style name="Preprocessor" background="#2a2b2f" foreground="#d1d435" italic="false" bold="false" underline="false" />
   <style name="Type" background="#2a2b2f" foreground="#e6ac32" italic="false" bold="false" underline="false" />
   <style name="QmlTypeId" background="#2a2b2f" foreground="#e6ac32" italic="false" bold="false" underline="false" />
-  <style name="Link" background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
-  <style name="Doxygen.Tag" background="#9d0e15" foreground="#e1e0e5" italic="false" bold="false" underline="false" />
+  <style name="Link" background="#2a2b2f" foreground="#e1e0e5" italic="false" bold="false" underline="true" />
+  <style name="Doxygen.Tag" background="#9d0e15" foreground="#e1e0e5" italic="false" bold="true" underline="false" />
 </style-scheme>

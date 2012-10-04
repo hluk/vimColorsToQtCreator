@@ -7,14 +7,14 @@
   <style name="CurrentLineNumber" background="#202020" foreground="#ffff00" italic="false" bold="true" underline="false" />
   <style name="Selection" background="#3c414c" foreground="#faf4c6" italic="false" bold="false" underline="false" />
   <style name="AddedLine" background="#00008b" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
-  <style name="RemovedLine" background="#008b8b" foreground="#0000ff" italic="false" bold="false" underline="false" />
-  <style name="DiffFile" background="#ff0000" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
-  <style name="DiffLocation" background="#ff0000" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
+  <style name="RemovedLine" background="#008b8b" foreground="#0000ff" italic="false" bold="true" underline="false" />
+  <style name="DiffFile" background="#ff0000" foreground="#e2e2e5" italic="false" bold="true" underline="false" />
+  <style name="DiffLocation" background="#ff0000" foreground="#e2e2e5" italic="false" bold="true" underline="false" />
   <style name="Occurrences.Unused" background="#202020" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
   <style name="Occurrences.Rename" background="#202020" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
   <style name="CurrentLine" background="#2d2d2d" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
-  <style name="Parentheses" background="#2f2f2f" foreground="#d0ffc0" italic="false" bold="false" underline="false" />
-  <style name="Occurrences" background="#2f2f2f" foreground="#d0ffc0" italic="false" bold="false" underline="false" />
+  <style name="Parentheses" background="#2f2f2f" foreground="#d0ffc0" italic="false" bold="true" underline="false" />
+  <style name="Occurrences" background="#2f2f2f" foreground="#d0ffc0" italic="false" bold="true" underline="false" />
   <style name="Text" background="#202020" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
   <style name="Local" background="#202020" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
   <style name="SearchScope" background="#202020" foreground="#e2e2e5" italic="false" bold="false" underline="false" />
@@ -33,7 +33,7 @@
   <style name="Preprocessor" background="#202020" foreground="#faf4c6" italic="false" bold="false" underline="false" />
   <style name="Type" background="#202020" foreground="#7e8aa2" italic="false" bold="false" underline="false" />
   <style name="QmlTypeId" background="#202020" foreground="#7e8aa2" italic="false" bold="false" underline="false" />
-  <style name="Doxygen.Tag" background="#e6ea50" foreground="#000000" italic="false" bold="false" underline="false" />
+  <style name="Doxygen.Tag" background="#e6ea50" foreground="#000000" italic="true" bold="false" underline="false" />
   <style name="String" background="#202020" foreground="#b1d631" italic="true" bold="false" underline="false" />
   <style name="Number" background="#202020" foreground="#ff9800" italic="false" bold="false" underline="false" />
   <style name="Function" background="#202020" foreground="#ffffff" italic="false" bold="true" underline="false" />

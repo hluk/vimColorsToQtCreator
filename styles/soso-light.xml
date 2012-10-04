@@ -7,9 +7,9 @@
   <style name="CurrentLineNumber" background="#e4e4e4" foreground="#a52a2a" italic="false" bold="true" underline="false" />
   <style name="Selection" background="#ccccdd" foreground="#000000" italic="false" bold="false" underline="false" />
   <style name="AddedLine" background="#c0ffe0" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="RemovedLine" background="#ffe0f7" foreground="#ff8097" italic="false" bold="false" underline="false" />
-  <style name="DiffFile" background="#bfdfff" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="DiffLocation" background="#bfdfff" foreground="#000000" italic="false" bold="false" underline="false" />
+  <style name="RemovedLine" background="#ffe0f7" foreground="#ff8097" italic="false" bold="true" underline="false" />
+  <style name="DiffFile" background="#bfdfff" foreground="#000000" italic="false" bold="true" underline="false" />
+  <style name="DiffLocation" background="#bfdfff" foreground="#000000" italic="false" bold="true" underline="false" />
   <style name="Occurrences.Unused" background="#e4e4e4" foreground="#000000" italic="false" bold="false" underline="false" />
   <style name="Occurrences.Rename" background="#e4e4e4" foreground="#ff00ff" italic="false" bold="false" underline="false" />
   <style name="CurrentLine" background="#e5e5e5" foreground="#000000" italic="false" bold="false" underline="false" />
@@ -28,13 +28,13 @@
   <style name="Doxygen.Comment" background="#e4e4e4" foreground="#6688ff" italic="false" bold="false" underline="false" />
   <style name="Field" background="#e4e4e4" foreground="#008b8b" italic="false" bold="false" underline="false" />
   <style name="Static" background="#e4e4e4" foreground="#008b8b" italic="false" bold="false" underline="false" />
-  <style name="Label" background="#e4e4e4" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="Binding" background="#e4e4e4" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="Operator" background="#e4e4e4" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="Keyword" background="#e4e4e4" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="Preprocessor" background="#e4e4e4" foreground="#335588" italic="false" bold="false" underline="false" />
-  <style name="Type" background="#e4e4e4" foreground="#338855" italic="false" bold="false" underline="false" />
-  <style name="QmlTypeId" background="#e4e4e4" foreground="#338855" italic="false" bold="false" underline="false" />
+  <style name="Label" background="#e4e4e4" foreground="#000000" italic="false" bold="true" underline="false" />
+  <style name="Binding" background="#e4e4e4" foreground="#000000" italic="false" bold="true" underline="false" />
+  <style name="Operator" background="#e4e4e4" foreground="#000000" italic="false" bold="true" underline="false" />
+  <style name="Keyword" background="#e4e4e4" foreground="#000000" italic="false" bold="true" underline="false" />
+  <style name="Preprocessor" background="#e4e4e4" foreground="#335588" italic="false" bold="true" underline="false" />
+  <style name="Type" background="#e4e4e4" foreground="#338855" italic="false" bold="true" underline="false" />
+  <style name="QmlTypeId" background="#e4e4e4" foreground="#338855" italic="false" bold="true" underline="false" />
   <style name="Doxygen.Tag" background="#ffff00" foreground="#0000ff" italic="false" bold="false" underline="false" />
   <style name="String" background="#e4e4e4" foreground="#b30000" italic="false" bold="false" underline="false" />
   <style name="Function" background="#e4e4e4" foreground="#117777" italic="false" bold="false" underline="false" />

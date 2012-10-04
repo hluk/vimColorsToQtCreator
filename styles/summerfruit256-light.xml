@@ -2,14 +2,14 @@
 <style-scheme version="1.0" name="summerfruit256 - light">
   <!-- This file was generated using vimColorsToQtC.pl. -->
   <style name="SearchResult" background="#ffae00" foreground="#800000" italic="false" bold="false" underline="false" />
-  <style name="LineNumber" background="#438ec3" foreground="#eeeeee" italic="false" bold="false" underline="false" />
-  <style name="DisabledCode" background="#438ec3" foreground="#eeeeee" italic="false" bold="false" underline="false" />
+  <style name="LineNumber" background="#438ec3" foreground="#eeeeee" italic="false" bold="true" underline="false" />
+  <style name="DisabledCode" background="#438ec3" foreground="#eeeeee" italic="false" bold="true" underline="false" />
   <style name="CurrentLineNumber" background="#ffffff" foreground="#a52a2a" italic="false" bold="true" underline="false" />
   <style name="Selection" background="#d3d3d3" foreground="#000000" italic="false" bold="false" underline="false" />
   <style name="AddedLine" background="#add8e6" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="RemovedLine" background="#e0ffff" foreground="#0000ff" italic="false" bold="false" underline="false" />
-  <style name="DiffFile" background="#ff0000" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="DiffLocation" background="#ff0000" foreground="#000000" italic="false" bold="false" underline="false" />
+  <style name="RemovedLine" background="#e0ffff" foreground="#0000ff" italic="false" bold="true" underline="false" />
+  <style name="DiffFile" background="#ff0000" foreground="#000000" italic="false" bold="true" underline="false" />
+  <style name="DiffLocation" background="#ff0000" foreground="#000000" italic="false" bold="true" underline="false" />
   <style name="Occurrences.Unused" background="#ffffff" foreground="#000000" italic="false" bold="false" underline="false" />
   <style name="Occurrences.Rename" background="#ffffff" foreground="#000000" italic="false" bold="false" underline="false" />
   <style name="CurrentLine" background="#c0d9eb" foreground="#000000" italic="false" bold="false" underline="false" />
@@ -32,7 +32,7 @@
   <style name="Preprocessor" background="#ffffff" foreground="#ff0007" italic="false" bold="false" underline="false" />
   <style name="Type" background="#ffffff" foreground="#70796b" italic="false" bold="true" underline="false" />
   <style name="QmlTypeId" background="#ffffff" foreground="#70796b" italic="false" bold="true" underline="false" />
-  <style name="Doxygen.Tag" background="#dbf3cd" foreground="#e50808" italic="false" bold="false" underline="false" />
+  <style name="Doxygen.Tag" background="#dbf3cd" foreground="#e50808" italic="false" bold="true" underline="false" />
   <style name="String" background="#ffffff" foreground="#0086d2" italic="false" bold="false" underline="false" />
   <style name="Number" background="#ffffff" foreground="#0086f7" italic="false" bold="false" underline="false" />
   <style name="Function" background="#ffffff" foreground="#ff0086" italic="false" bold="false" underline="false" />

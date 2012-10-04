@@ -13,8 +13,8 @@
   <style name="Occurrences.Unused" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
   <style name="Occurrences.Rename" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
   <style name="CurrentLine" background="#444444" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
-  <style name="Parentheses" background="#5f87df" foreground="#dfdfdf" italic="false" bold="false" underline="false" />
-  <style name="Occurrences" background="#5f87df" foreground="#dfdfdf" italic="false" bold="false" underline="false" />
+  <style name="Parentheses" background="#5f87df" foreground="#dfdfdf" italic="false" bold="true" underline="false" />
+  <style name="Occurrences" background="#5f87df" foreground="#dfdfdf" italic="false" bold="true" underline="false" />
   <style name="Text" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
   <style name="Local" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
   <style name="SearchScope" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />

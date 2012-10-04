@@ -42,5 +42,5 @@
   <style name="Preprocessor" background="#f8f8f8" foreground="#e06800" italic="false" bold="false" underline="false" />
   <style name="Type" background="#f8f8f8" foreground="#0070e6" italic="false" bold="false" underline="false" />
   <style name="QmlTypeId" background="#f8f8f8" foreground="#0070e6" italic="false" bold="false" underline="false" />
-  <style name="Doxygen.Tag" background="#ffe0f4" foreground="#ff0070" italic="false" bold="false" underline="false" />
+  <style name="Doxygen.Tag" background="#ffe0f4" foreground="#ff0070" italic="false" bold="false" underline="true" />
 </style-scheme>

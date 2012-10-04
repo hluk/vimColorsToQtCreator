@@ -7,9 +7,9 @@
   <style name="CurrentLineNumber" background="#111111" foreground="#ffff00" italic="false" bold="true" underline="false" />
   <style name="Selection" background="#a9a9a9" foreground="#ffffff" italic="false" bold="false" underline="false" />
   <style name="AddedLine" background="#00008b" foreground="#ffffff" italic="false" bold="false" underline="false" />
-  <style name="RemovedLine" background="#008b8b" foreground="#0000ff" italic="false" bold="false" underline="false" />
-  <style name="DiffFile" background="#ff0000" foreground="#ffffff" italic="false" bold="false" underline="false" />
-  <style name="DiffLocation" background="#ff0000" foreground="#ffffff" italic="false" bold="false" underline="false" />
+  <style name="RemovedLine" background="#008b8b" foreground="#0000ff" italic="false" bold="true" underline="false" />
+  <style name="DiffFile" background="#ff0000" foreground="#ffffff" italic="false" bold="true" underline="false" />
+  <style name="DiffLocation" background="#ff0000" foreground="#ffffff" italic="false" bold="true" underline="false" />
   <style name="Occurrences.Unused" background="#111111" foreground="#ffffff" italic="false" bold="false" underline="false" />
   <style name="Occurrences.Rename" background="#111111" foreground="#ffffff" italic="false" bold="false" underline="false" />
   <style name="CurrentLine" background="#181818" foreground="#ffffff" italic="false" bold="false" underline="false" />
@@ -21,7 +21,7 @@
   <style name="JsScopeVar" background="#111111" foreground="#ffffff" italic="true" bold="false" underline="false" />
   <style name="JsImportVar" background="#111111" foreground="#ffffff" italic="true" bold="false" underline="false" />
   <style name="JsGlobalVar" background="#111111" foreground="#ffffff" italic="true" bold="false" underline="false" />
-  <style name="Comment" background="#0f140f" foreground="#00d2ff" italic="false" bold="false" underline="false" />
+  <style name="Comment" background="#0f140f" foreground="#00d2ff" italic="true" bold="false" underline="false" />
   <style name="QmlExternalId" background="#111111" foreground="#0086d2" italic="true" bold="false" underline="false" />
   <style name="QmlExternalObjectProperty" background="#111111" foreground="#0086d2" italic="true" bold="false" underline="false" />
   <style name="Doxygen.Comment" background="#111111" foreground="#fd8900" italic="false" bold="false" underline="false" />
@@ -32,7 +32,7 @@
   <style name="Preprocessor" background="#111111" foreground="#ff0007" italic="false" bold="true" underline="false" />
   <style name="Type" background="#111111" foreground="#cdcaa9" italic="false" bold="true" underline="false" />
   <style name="QmlTypeId" background="#111111" foreground="#cdcaa9" italic="false" bold="true" underline="false" />
-  <style name="Doxygen.Tag" background="#520000" foreground="#e50808" italic="false" bold="false" underline="false" />
+  <style name="Doxygen.Tag" background="#520000" foreground="#e50808" italic="false" bold="true" underline="false" />
   <style name="String" background="#111111" foreground="#0086d2" italic="false" bold="false" underline="false" />
   <style name="Number" background="#111111" foreground="#0086f7" italic="false" bold="true" underline="false" />
   <style name="Function" background="#111111" foreground="#ff0086" italic="false" bold="true" underline="false" />

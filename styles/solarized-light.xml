@@ -6,15 +6,15 @@
   <style name="DisabledCode" background="#eee8d5" foreground="#839496" italic="false" bold="false" underline="false" />
   <style name="CurrentLineNumber" background="#fdf6e3" foreground="#a52a2a" italic="false" bold="true" underline="false" />
   <style name="Selection" background="#839496" foreground="#fdf6e3" italic="false" bold="false" underline="false" />
-  <style name="AddedLine" background="#eee8d5" foreground="#719e07" italic="false" bold="false" underline="false" />
-  <style name="RemovedLine" background="#eee8d5" foreground="#dc322f" italic="false" bold="false" underline="false" />
-  <style name="DiffFile" background="#eee8d5" foreground="#268bd2" italic="false" bold="false" underline="false" />
-  <style name="DiffLocation" background="#eee8d5" foreground="#268bd2" italic="false" bold="false" underline="false" />
+  <style name="AddedLine" background="#eee8d5" foreground="#719e07" italic="false" bold="true" underline="false" />
+  <style name="RemovedLine" background="#eee8d5" foreground="#dc322f" italic="false" bold="true" underline="false" />
+  <style name="DiffFile" background="#eee8d5" foreground="#268bd2" italic="false" bold="true" underline="false" />
+  <style name="DiffLocation" background="#eee8d5" foreground="#268bd2" italic="false" bold="true" underline="false" />
   <style name="Occurrences.Unused" background="#fdf6e3" foreground="#586e75" italic="false" bold="false" underline="false" />
   <style name="Occurrences.Rename" background="#fdf6e3" foreground="#586e75" italic="false" bold="false" underline="false" />
   <style name="CurrentLine" background="#eee8d5" foreground="#586e75" italic="false" bold="false" underline="false" />
-  <style name="Parentheses" background="#839496" foreground="#dc322f" italic="false" bold="false" underline="false" />
-  <style name="Occurrences" background="#839496" foreground="#dc322f" italic="false" bold="false" underline="false" />
+  <style name="Parentheses" background="#839496" foreground="#dc322f" italic="false" bold="true" underline="false" />
+  <style name="Occurrences" background="#839496" foreground="#dc322f" italic="false" bold="true" underline="false" />
   <style name="Text" background="#fdf6e3" foreground="#586e75" italic="false" bold="false" underline="false" />
   <style name="Local" background="#fdf6e3" foreground="#586e75" italic="false" bold="false" underline="false" />
   <style name="SearchScope" background="#fdf6e3" foreground="#586e75" italic="false" bold="false" underline="false" />
