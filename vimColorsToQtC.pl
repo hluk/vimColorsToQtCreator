@@ -111,19 +111,18 @@ print '<?xml version="1.0" encoding="UTF-8"?>
   <!-- This file was generated using vimColorsToQtC.pl. -->
 ';
 
-my %normal = (bg => "ff00ff", fg => "ff00ff", italic => "false", bold => "false", underline => "false");
+my %normal = (bg => "ff00ff", fg => "ff00ff", italic => "false", bold => "false");
 my %styles = (
     "Normal" => \%normal
 );
 while(<$fh>) {
     chomp;
-    if (/^\.(\w+)\s+{ ((color: (?<fg>[^;]+)|background-color: (?<bg>[^;]+)|font-weight: bold(?<bold>)|font-style: italic(?<italic>)|text-decoration: underline(?<underline>)|[^:]+: [^;]+); *)+/) {
+    if (/^\.(\w+)\s+{ ((color: (?<fg>[^;]+)|background-color: (?<bg>[^;]+)|font-weight: bold(?<bold>)|font-style: italic(?<italic>)|[^:]+: [^;]+); *)+/) {
         my $opts = $styles{$1} or ();
         $opts->{bg} = $+{bg} if defined($+{bg});
         $opts->{fg} = $+{fg} if defined($+{fg});
         $opts->{italic} = "true" if defined($+{italic});
         $opts->{bold} = "true" if defined($+{bold});
-        $opts->{underline} = "true" if defined($+{underline});
         $styles{$1} = $opts;
     } else {
         my @spans = split '</span>';
@@ -132,13 +131,24 @@ while(<$fh>) {
                 next unless defined($dict{$2});
                 my $style = $styles{$1} or ();
                 foreach (@{$dict{$2}}) {
-                    print "  <style name=\"$1\"" .
-                          ' background="' . ($+{bg} or @{$style}{bg} or $normal{bg}) . '"' .
-                          ' foreground="' . ($+{fg} or @{$style}{fg} or $normal{fg}) . '"' .
-                          ' italic="' . ($+{italic} or @{$style}{italic} or $normal{italic}) . '"' .
-                          ' bold="' . ($+{bold} or @{$style}{bold} or $normal{bold}) . '"' .
-                          ' underline="' . ($+{underline} or @{$style}{underline} or $normal{underline}) . '"' .
-                          " />\n" if /([^|]+)\|?((background="(?<bg>[^"]+)"|color="(?<fg>[^"]+)"|bold="(?<bold>[^"]+)"|italic="(?<italic>[^"]+)"|underline="(?<underline>[^"]+)")\s*)*/;
+                    if (/([^|]+)\|?((background="(?<bg>[^"]+)"|color="(?<fg>[^"]+)"|bold="(?<bold>[^"]+)"|italic="(?<italic>[^"]+)"|[^=]+=\S+)\s*)*/) {
+                        my $bg = ($+{bg} or @{$style}{bg});
+                        my $fg = ($+{fg} or @{$style}{fg});
+                        my $italic = ($+{italic} or @{$style}{italic});
+                        my $bold = ($+{bold} or @{$style}{bold});
+                        if ($1 ne "Text") {
+                            $bg = 0 if $bg and $bg eq $normal{bg};
+                            $fg = 0 if $fg and $fg eq $normal{fg};
+                            $italic = 0 if $italic and $italic eq $normal{italic};
+                            $bold = 0 if $bold and $bold eq $normal{bold};
+                        }
+                        print "  <style name=\"$1\"" .
+                              ($bg     ? ' background="' . $bg . '"' : '') .
+                              ($fg     ? ' foreground="' . $fg . '"' : '') .
+                              ($italic ? ' italic="'     . $italic . '"' : '') .
+                              ($bold   ? ' bold="'       . $bold . '"' : '') .
+                              " />\n";
+                    }
                 }
                 delete $dict{$2};
             }
