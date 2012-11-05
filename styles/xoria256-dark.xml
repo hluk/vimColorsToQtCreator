@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="xoria256 - dark">
   <!-- This file was generated using vimColorsToQtC.pl. -->
-  <style name="SearchResult" background="#afdf5f" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="LineNumber" background="#1c1c1c" foreground="#a8a8a8" italic="false" bold="false" underline="false" />
-  <style name="DisabledCode" background="#1c1c1c" foreground="#a8a8a8" italic="false" bold="false" underline="false" />
-  <style name="CurrentLineNumber" background="#1c1c1c" foreground="#ffff00" italic="false" bold="true" underline="false" />
-  <style name="Selection" background="#afdfff" foreground="#005f87" italic="false" bold="false" underline="false" />
-  <style name="AddedLine" background="#afdfaf" foreground="#1c1c1c" italic="false" bold="false" underline="false" />
-  <style name="RemovedLine" background="#949494" foreground="#1c1c1c" italic="false" bold="false" underline="false" />
-  <style name="DiffFile" background="#df8787" foreground="#1c1c1c" italic="false" bold="false" underline="false" />
-  <style name="DiffLocation" background="#df8787" foreground="#1c1c1c" italic="false" bold="false" underline="false" />
-  <style name="Occurrences.Unused" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
-  <style name="Occurrences.Rename" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
-  <style name="CurrentLine" background="#444444" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
-  <style name="Parentheses" background="#5f87df" foreground="#dfdfdf" italic="false" bold="true" underline="false" />
-  <style name="Occurrences" background="#5f87df" foreground="#dfdfdf" italic="false" bold="true" underline="false" />
-  <style name="Text" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
-  <style name="Local" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
-  <style name="SearchScope" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" underline="false" />
-  <style name="JsScopeVar" background="#1c1c1c" foreground="#d0d0d0" italic="true" bold="false" underline="false" />
-  <style name="JsImportVar" background="#1c1c1c" foreground="#d0d0d0" italic="true" bold="false" underline="false" />
-  <style name="JsGlobalVar" background="#1c1c1c" foreground="#d0d0d0" italic="true" bold="false" underline="false" />
-  <style name="Comment" background="#1c1c1c" foreground="#808080" italic="false" bold="false" underline="false" />
-  <style name="QmlExternalId" background="#1c1c1c" foreground="#ffffaf" italic="true" bold="false" underline="false" />
-  <style name="QmlExternalObjectProperty" background="#1c1c1c" foreground="#ffffaf" italic="true" bold="false" underline="false" />
-  <style name="String" background="#1c1c1c" foreground="#ffffaf" italic="false" bold="false" underline="false" />
-  <style name="Doxygen.Comment" background="#1c1c1c" foreground="#df8787" italic="false" bold="false" underline="false" />
-  <style name="Field" background="#1c1c1c" foreground="#dfafdf" italic="false" bold="false" underline="false" />
-  <style name="Function" background="#1c1c1c" foreground="#dfafdf" italic="false" bold="false" underline="false" />
-  <style name="VirtualMethod" background="#1c1c1c" foreground="#dfafdf" italic="true" bold="false" underline="false" />
-  <style name="QmlLocalId" background="#1c1c1c" foreground="#dfafdf" italic="true" bold="false" underline="false" />
-  <style name="QmlRootObjectProperty" background="#1c1c1c" foreground="#dfafdf" italic="true" bold="false" underline="false" />
-  <style name="QmlScopeObjectProperty" background="#1c1c1c" foreground="#dfafdf" italic="true" bold="false" underline="false" />
-  <style name="QmlStateName" background="#1c1c1c" foreground="#dfafdf" italic="false" bold="false" underline="false" />
-  <style name="Static" background="#1c1c1c" foreground="#dfafdf" italic="false" bold="false" underline="false" />
-  <style name="Label" background="#1c1c1c" foreground="#87afdf" italic="false" bold="false" underline="false" />
-  <style name="Binding" background="#1c1c1c" foreground="#87afdf" italic="false" bold="false" underline="false" />
-  <style name="Operator" background="#1c1c1c" foreground="#87afdf" italic="false" bold="false" underline="false" />
-  <style name="Keyword" background="#1c1c1c" foreground="#87afdf" italic="false" bold="false" underline="false" />
-  <style name="Preprocessor" background="#1c1c1c" foreground="#afdf87" italic="false" bold="false" underline="false" />
-  <style name="Type" background="#1c1c1c" foreground="#afafdf" italic="false" bold="false" underline="false" />
-  <style name="QmlTypeId" background="#1c1c1c" foreground="#afafdf" italic="false" bold="false" underline="false" />
-  <style name="Doxygen.Tag" background="#dfdf00" foreground="#000000" italic="false" bold="false" underline="false" />
-  <style name="Number" background="#1c1c1c" foreground="#dfaf87" italic="false" bold="false" underline="false" />
+  <style name="SearchResult" background="#afdf5f" foreground="#000000" />
+  <style name="LineNumber" foreground="#a8a8a8" />
+  <style name="DisabledCode" foreground="#a8a8a8" />
+  <style name="CurrentLineNumber" foreground="#ffff00" bold="true" />
+  <style name="Selection" background="#afdfff" foreground="#005f87" />
+  <style name="AddedLine" background="#afdfaf" foreground="#1c1c1c" />
+  <style name="RemovedLine" background="#949494" foreground="#1c1c1c" />
+  <style name="DiffFile" background="#df8787" foreground="#1c1c1c" />
+  <style name="DiffLocation" background="#df8787" foreground="#1c1c1c" />
+  <style name="Occurrences.Unused" foreground="#d0d0d0" />
+  <style name="Occurrences.Rename" foreground="#d0d0d0" />
+  <style name="CurrentLine" background="#444444" foreground="#d0d0d0" />
+  <style name="Parentheses" background="#5f87df" foreground="#dfdfdf" bold="true" />
+  <style name="Occurrences" background="#5f87df" foreground="#dfdfdf" bold="true" />
+  <style name="Text" background="#1c1c1c" foreground="#d0d0d0" italic="false" bold="false" />
+  <style name="Local" foreground="#d0d0d0" />
+  <style name="SearchScope" foreground="#d0d0d0" />
+  <style name="JsScopeVar" foreground="#d0d0d0" italic="true" />
+  <style name="JsImportVar" foreground="#d0d0d0" italic="true" />
+  <style name="JsGlobalVar" foreground="#d0d0d0" italic="true" />
+  <style name="Comment" foreground="#808080" />
+  <style name="QmlExternalId" foreground="#ffffaf" italic="true" />
+  <style name="QmlExternalObjectProperty" foreground="#ffffaf" italic="true" />
+  <style name="Static" foreground="#ffffaf" />
+  <style name="String" foreground="#ffffaf" />
+  <style name="Doxygen.Comment" foreground="#df8787" />
+  <style name="Field" foreground="#dfafdf" />
+  <style name="Function" foreground="#dfafdf" />
+  <style name="VirtualMethod" foreground="#dfafdf" italic="true" />
+  <style name="QmlLocalId" foreground="#dfafdf" italic="true" />
+  <style name="QmlRootObjectProperty" foreground="#dfafdf" italic="true" />
+  <style name="QmlScopeObjectProperty" foreground="#dfafdf" italic="true" />
+  <style name="QmlStateName" foreground="#dfafdf" />
+  <style name="Label" foreground="#87afdf" />
+  <style name="Binding" foreground="#87afdf" />
+  <style name="Operator" foreground="#87afdf" />
+  <style name="Keyword" foreground="#87afdf" />
+  <style name="Preprocessor" foreground="#afdf87" />
+  <style name="Type" foreground="#afafdf" />
+  <style name="QmlTypeId" foreground="#afafdf" />
+  <style name="Doxygen.Tag" background="#dfdf00" foreground="#000000" />
+  <style name="Number" foreground="#dfaf87" />
 </style-scheme>
