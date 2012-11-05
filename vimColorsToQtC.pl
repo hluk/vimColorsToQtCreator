@@ -143,6 +143,10 @@ while(<$fh>) {
                             $italic = 0 if $italic and $italic eq $normal{italic};
                             $bold = 0 if $bold and $bold eq $normal{bold};
                         }
+                        if ($1 ne "Disabled" and not $fg) {
+                            # Qt Creator bug: Black foreground of disabled text if none set.
+                            $fg = $normal{fg};
+                        }
                         print "  <style name=\"$1\"" .
                               ($bg     ? ' background="' . $bg . '"' : '') .
                               ($fg     ? ' foreground="' . $fg . '"' : '') .
