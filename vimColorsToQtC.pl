@@ -20,7 +20,7 @@ use strict;
 use warnings;
 use File::Temp;
 
-my $version = '0.9.0';
+my $version = '1.0.0';
 
 if (not defined($ARGV[0]) or $ARGV[0] eq '-h' or $ARGV[0] eq '--help') {
     print
