@@ -62,7 +62,6 @@ my %dict = (
     String => ['String'],
     Type => ['Type', 'QmlTypeId'],
     Identifier => ['Field'],
-    cEnum => ['Static'],
     Function => ['Function',
         'VirtualMethod|italic="true"',
         'QmlLocalId|italic="true"',
@@ -80,7 +79,9 @@ my %dict = (
 
     Constant => [
         'QmlExternalId|bold="false" italic="true"',
-        'QmlExternalObjectProperty|bold="false" italic="true"'],
+        'QmlExternalObjectProperty|bold="false" italic="true"',
+        'Static'
+    ],
 
     DiffAdd => ['AddedLine'],
     DiffDelete => ['RemovedLine'],
