@@ -39,7 +39,7 @@
   <style name="Binding" foreground="#a52a2a" bold="true" />
   <style name="Operator" foreground="#a52a2a" bold="true" />
   <style name="Keyword" foreground="#a52a2a" bold="true" />
-  <style name="Preprocessor" foreground="#a020f0" />
+  <style name="Preprocessor" foreground="#800080" />
   <style name="Type" foreground="#2e8b57" bold="true" />
   <style name="QmlTypeId" foreground="#2e8b57" bold="true" />
   <style name="Doxygen.Tag" background="#ffff00" foreground="#0000ff" />

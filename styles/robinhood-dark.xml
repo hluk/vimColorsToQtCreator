@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="robinhood - dark">
   <!-- This file was generated using vimColorsToQtC.pl. -->
-  <style name="SearchResult" background="#bebebe" foreground="#000000" bold="true" />
+  <style name="SearchResult" background="#808080" foreground="#000000" bold="true" />
   <style name="LineNumber" background="#203010" foreground="#9acd32" bold="true" />
   <style name="DisabledCode" background="#203010" foreground="#9acd32" bold="true" />
   <style name="CurrentLineNumber" foreground="#ffff00" bold="true" />

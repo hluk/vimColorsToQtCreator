@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme version="1.0" name="mustang - dark">
+<style-scheme version="1.0" name="Mustang - dark">
   <!-- This file was generated using vimColorsToQtC.pl. -->
   <style name="SearchResult" foreground="#ffffff" />
   <style name="LineNumber" background="#000000" foreground="#808080" />

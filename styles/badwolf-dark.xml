@@ -11,7 +11,7 @@
   <style name="DiffFile" background="#35322d" foreground="#ffffff" bold="true" />
   <style name="DiffLocation" background="#35322d" foreground="#ffffff" bold="true" />
   <style name="Occurrences.Unused" foreground="#fade3e" bold="true" />
-  <style name="Occurrences.Rename" foreground="#ff00ff" />
+  <style name="Occurrences.Rename" foreground="#f8f6f2" />
   <style name="CurrentLine" background="#242321" foreground="#f8f6f2" />
   <style name="Parentheses" background="#242321" foreground="#fade3e" bold="true" />
   <style name="Occurrences" background="#242321" foreground="#fade3e" bold="true" />

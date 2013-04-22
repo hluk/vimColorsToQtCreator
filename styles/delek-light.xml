@@ -5,7 +5,7 @@
   <style name="LineNumber" foreground="#a52a2a" />
   <style name="DisabledCode" foreground="#a52a2a" />
   <style name="CurrentLineNumber" foreground="#a52a2a" bold="true" />
-  <style name="Selection" background="#bebebe" foreground="#000000" />
+  <style name="Selection" background="#808080" foreground="#000000" />
   <style name="AddedLine" background="#add8e6" foreground="#000000" />
   <style name="RemovedLine" background="#e0ffff" foreground="#0000ff" bold="true" />
   <style name="DiffFile" background="#ff0000" foreground="#000000" bold="true" />

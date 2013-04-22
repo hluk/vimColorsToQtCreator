@@ -5,7 +5,7 @@
   <style name="LineNumber" background="#cccccc" foreground="#a52a2a" />
   <style name="DisabledCode" background="#cccccc" foreground="#a52a2a" />
   <style name="CurrentLineNumber" foreground="#a52a2a" bold="true" />
-  <style name="Selection" background="#bebebe" foreground="#000000" />
+  <style name="Selection" background="#808080" foreground="#000000" />
   <style name="AddedLine" background="#e0ffff" foreground="#0000ff" />
   <style name="RemovedLine" background="#e0ffff" foreground="#add8e6" />
   <style name="DiffFile" background="#ffffe0" foreground="#0000ff" />
@@ -42,5 +42,5 @@
   <style name="QmlTypeId" foreground="#a52a2a" />
   <style name="Doxygen.Tag" foreground="#ff1493" />
   <style name="String" foreground="#6e8b3d" />
-  <style name="Operator" foreground="#a020f0" />
+  <style name="Operator" foreground="#800080" />
 </style-scheme>
