@@ -6,8 +6,15 @@
   <style name="DisabledCode" background="#262626" foreground="#9fafaf" />
   <style name="CurrentLineNumber" foreground="#ffff00" bold="true" />
   <style name="Selection" background="#2f2f2f" foreground="#dcdccc" />
+  <style name="DillFileLine" background="#333333" foreground="#93b3a3" />
+  <style name="DiffFileLine" background="#333333" foreground="#93b3a3" />
+  <style name="DiffContextLine" background="#333333" foreground="#93b3a3" />
   <style name="AddedLine" background="#313c36" foreground="#709080" bold="true" />
+  <style name="DiffDestChar" background="#313c36" foreground="#709080" bold="true" />
+  <style name="DiffSourceLine" background="#333333" foreground="#dcdccc" />
+  <style name="DiffDestLine" background="#333333" foreground="#dcdccc" />
   <style name="RemovedLine" background="#464646" foreground="#333333" bold="true" />
+  <style name="DiffSourceChar" background="#464646" foreground="#333333" bold="true" />
   <style name="DiffFile" background="#41363c" foreground="#ecbcbc" bold="true" />
   <style name="DiffLocation" background="#41363c" foreground="#ecbcbc" bold="true" />
   <style name="Occurrences.Unused" foreground="#8c8cbc" />
