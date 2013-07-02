@@ -83,9 +83,12 @@ my %dict = (
         'Static'
     ],
 
-    DiffAdd => ['AddedLine'],
-    DiffDelete => ['RemovedLine'],
+    DiffAdd => ['AddedLine', 'DiffDestChar'],
+    DiffDelete => ['RemovedLine', 'DiffSourceChar'],
     DiffText => ['DiffFile', 'DiffLocation'],
+    DiffChange => ['DiffSourceLine', 'DiffDestLine'],
+    # TODO: Remove 'DillFileLine' (typo in 2.8 rc).
+    Folded => ['DillFileLine', 'DiffFileLine', 'DiffContextLine'],
 );
 
 my ($fh, $filename) = File::Temp::tempfile();
