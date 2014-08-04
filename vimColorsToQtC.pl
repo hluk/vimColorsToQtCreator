@@ -60,7 +60,7 @@ my %dict = (
 
     Number => ['Number'],
     String => ['String'],
-    Type => ['Type', 'QmlTypeId'],
+    Type => ['Type', 'QmlTypeId', 'PrimitiveType'],
     Identifier => ['Field'],
     Function => ['Function',
         'VirtualMethod|italic="true"',
