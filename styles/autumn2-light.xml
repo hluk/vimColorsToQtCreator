@@ -43,6 +43,7 @@
   <style name="Preprocessor" foreground="#a9a9a9" />
   <style name="Type" foreground="#bb9900" />
   <style name="QmlTypeId" foreground="#bb9900" />
+  <style name="PrimitiveType" foreground="#bb9900" />
   <style name="Doxygen.Tag" background="#ddd9b8" foreground="#229900" bold="true" />
   <style name="Function" foreground="#0055cc" />
   <style name="VirtualMethod" foreground="#0055cc" italic="true" />

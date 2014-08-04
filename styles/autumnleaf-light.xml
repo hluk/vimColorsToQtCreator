@@ -37,6 +37,7 @@
   <style name="Preprocessor" foreground="#aa7733" bold="true" />
   <style name="Type" foreground="#007700" bold="true" />
   <style name="QmlTypeId" foreground="#007700" bold="true" />
+  <style name="PrimitiveType" foreground="#007700" bold="true" />
   <style name="Doxygen.Tag" foreground="#aa0000" />
   <style name="String" foreground="#003399" italic="true" />
   <style name="Number" foreground="#003399" bold="true" />

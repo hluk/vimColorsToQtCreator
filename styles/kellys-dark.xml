@@ -47,6 +47,7 @@
   <style name="Preprocessor" foreground="#d1d435" />
   <style name="Type" foreground="#e6ac32" />
   <style name="QmlTypeId" foreground="#e6ac32" />
+  <style name="PrimitiveType" foreground="#e6ac32" />
   <style name="Link" foreground="#e1e0e5" />
   <style name="Doxygen.Tag" background="#9d0e15" foreground="#e1e0e5" bold="true" />
 </style-scheme>

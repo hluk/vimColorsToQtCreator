@@ -1,4 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme version="1.0" name="mustang - dark">
+<style-scheme version="1.0" name="Mustang - dark">
   <!-- This file was generated using vimColorsToQtC.pl. -->
+  <style name="SearchResult" foreground="#ffffff" />
+  <style name="LineNumber" background="#000000" foreground="#808080" />
+  <style name="DisabledCode" background="#000000" foreground="#808080" />
+  <style name="CurrentLineNumber" foreground="#ffff00" bold="true" />
+  <style name="Selection" background="#3c414c" foreground="#faf4c6" />
+  <style name="AddedLine" background="#00008b" foreground="#e2e2e5" />
+  <style name="RemovedLine" background="#008b8b" foreground="#0000ff" bold="true" />
+  <style name="DiffFile" background="#ff0000" foreground="#e2e2e5" bold="true" />
+  <style name="DiffLocation" background="#ff0000" foreground="#e2e2e5" bold="true" />
+  <style name="Occurrences.Unused" foreground="#e2e2e5" />
+  <style name="Occurrences.Rename" foreground="#e2e2e5" />
+  <style name="CurrentLine" background="#2d2d2d" foreground="#e2e2e5" />
+  <style name="Parentheses" background="#2f2f2f" foreground="#d0ffc0" bold="true" />
+  <style name="Occurrences" background="#2f2f2f" foreground="#d0ffc0" bold="true" />
+  <style name="Text" background="#202020" foreground="#e2e2e5" italic="false" bold="false" />
+  <style name="Local" foreground="#e2e2e5" />
+  <style name="SearchScope" foreground="#e2e2e5" />
+  <style name="JsScopeVar" foreground="#e2e2e5" italic="true" />
+  <style name="JsImportVar" foreground="#e2e2e5" italic="true" />
+  <style name="JsGlobalVar" foreground="#e2e2e5" italic="true" />
+  <style name="Comment" foreground="#808080" italic="true" />
+  <style name="QmlExternalId" foreground="#ff9800" italic="true" />
+  <style name="QmlExternalObjectProperty" foreground="#ff9800" italic="true" />
+  <style name="Static" foreground="#ff9800" />
+  <style name="Doxygen.Comment" foreground="#ff9800" />
+  <style name="Field" foreground="#b1d631" />
+  <style name="Label" foreground="#7e8aa2" />
+  <style name="Binding" foreground="#7e8aa2" />
+  <style name="Operator" foreground="#7e8aa2" />
+  <style name="Preprocessor" foreground="#faf4c6" />
+  <style name="Type" foreground="#7e8aa2" />
+  <style name="QmlTypeId" foreground="#7e8aa2" />
+  <style name="PrimitiveType" foreground="#7e8aa2" />
+  <style name="Doxygen.Tag" background="#e6ea50" foreground="#000000" italic="true" />
+  <style name="String" foreground="#b1d631" italic="true" />
+  <style name="Number" foreground="#ff9800" />
+  <style name="Function" foreground="#ffffff" bold="true" />
+  <style name="VirtualMethod" foreground="#ffffff" italic="true" bold="true" />
+  <style name="QmlLocalId" foreground="#ffffff" italic="true" bold="true" />
+  <style name="QmlRootObjectProperty" foreground="#ffffff" italic="true" bold="true" />
+  <style name="QmlScopeObjectProperty" foreground="#ffffff" italic="true" bold="true" />
+  <style name="QmlStateName" foreground="#ffffff" bold="true" />
+  <style name="Keyword" foreground="#ff9800" />
 </style-scheme>
