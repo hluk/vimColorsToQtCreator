@@ -14,8 +14,8 @@ Examples:
     ./vimColorsToQtC.pl soso
     ./vimColorsToQtC.pl solarized dark
 
-Copy output files into Qt Creator's styles directory (usually "$HOME/.config/Nokia/qtcreator/styles"
-or "$HOME/.config/QtProject/qtcreator/styles" in newer version of Qt Creator).
+Copy output files into Qt Creator's styles directory located in:
+- Linux directory `$HOME/.config/QtProject/qtcreator/styles`,
+- Windows folder `%APPDATA%\QtProject\qtcreator\styles`.
 
 Pay respect to the authors of the Vim color schemes.
-
